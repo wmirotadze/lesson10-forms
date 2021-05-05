@@ -4,14 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact-Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section class="contact-us">
-        
-
+    <section>
+        <div class="cont-container">
+            <h4>CONTACT</h4>
+            <h2>Contact us to get free support</h2>
+            <div class="form-wrapper">
+                <textarea name="description" id="desc" cols="30" rows="10" placeholder="Desription"></textarea>
+                <div class="input-wrapper">
+                    <form action="/action_page.php">
+                        <input class="inp-form" type="text" id="description" placeholder="Subject" required>
+                        <input class="inp-form" type="text" id="subject" placeholder="Name / Surname" required>
+                        <input class="inp-form" type="email" id="email" placeholder="Email" required>
+                        <button class="btn" type="submit">Send <img src="images/send.svg" alt="send.ico"></button>
+                    </form>
+                </div>                
+            </div>
+            <div class="block-wrapper">
+                <div class="block">
+                    <div class="icon">
+                        <img src="images/mail.svg" alt="ico">
+                    </div>
+                    <h5>Email</h5>
+                    <p>example@yahoo.com</p>
+                    <p>exampleemail2@yahoo.com</p>
+                </div>
+                <div class="block">
+                    <div class="icon">
+                        <img src="images/phone.svg" alt="ico">
+                    </div>
+                    <h5>Phone</h5>
+                    <p>+0 320 422 4254</p>
+                    <p>+0 342 552 523</p>
+                </div>
+                <div class="block">
+                    <div class="icon">
+                        <img src="images/map-pin.svg" alt="ico">
+                    </div>
+                    <h5>Location</h5>
+                    <p>Main Str Chicago Ilinois</p>
+                    <p>Main Street New York City</p>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>

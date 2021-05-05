@@ -1,0 +1,109 @@
+.cont-container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+}
+.cont-container h4 {
+    font: normal normal bold 14px/21px Poppins;
+    color: #5863F8;
+}
+.cont-container h2 {
+    font: normal normal 800 42px/56px Poppins;
+    max-width: 378px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1088px;
+    width: 100%;
+}
+.form-wrapper textarea {
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+    resize: none;
+    font: normal normal normal 13px/20px Poppins;
+    color: #CECECE;
+    background-color: #F8F8F8;
+    border: 2px solid #E8E8E8;
+}
+.input-wrapper {
+    max-width: 352px;
+    width: 100%;
+}
+.input-wrapper form {
+    display: flex;
+    flex-direction: column;
+}
+.inp-form {
+    height: 60px;
+    margin-bottom: 16px;
+    font: normal normal normal 13px/20px Poppins;
+    color: #CECECE;
+    background-color: #F8F8F8;
+    border: 2px solid #E8E8E8;
+}
+.btn {
+    height: 60px;
+    background-color: #5863F8;
+    font: 14px/56px Poppins;
+    color: #FFFFFF;
+}
+
+.block-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1088px;
+    width: 100%;
+    margin: 50px auto;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 260px;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 59px;
+    height: 58px;
+    background-color: #5863F8;
+    border-radius: 50px;
+}
+.block h5 {
+    margin: 15px 0 5px 0;
+    font: normal normal 600 18px/27px Poppins;
+}
+.block p {
+    font: normal normal medium 14px/21px Poppins;
+    color: #B1B1B1;
+}
+
+
+/* responsive */
+@media (max-width:1140px) {
+    .form-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .form-wrapper textarea {
+        max-width: 1080px;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .cont-container {
+        padding: 0 20px;
+    }
+}
+@media (max-width:650px) {
+    .block-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
